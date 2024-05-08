@@ -1,0 +1,556 @@
+@media (min-width: 0px) and (max-width:768px) {
+    body {
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    div{
+        margin: 0;
+        padding: 0;
+        border: 0;
+       
+    }
+    .w {
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+    .imageclass{
+        display: none;
+    }
+    header {
+        /* width: 100%; */
+        height: 4.6667rem;
+        /* min-width: 100%; */
+        background-image: url(../aiimage/phoneai/phonebg.png);
+        background-size: 100% 100%;
+        position: relative;
+    }
+.phonew{
+    position: absolute;
+    top: 1.0667rem;
+    left: .6667rem;
+    width: 5.0267rem;
+   
+}
+.title{
+    font-family: Alibaba PuHuiTi;
+    font-weight: 500;
+    font-size: .48rem;
+    color: #FFFFFF;
+}
+.xian{
+    width: 1.3333rem;
+    height: .0533rem;
+    background: #F5F2F6;
+    margin: .4667rem 0 .3067rem 0;
+}
+.content{
+    font-family: Alibaba PuHuiTi;
+    font-weight: 400;
+    font-size: .2133rem;
+    color: #FFFFFF;
+    line-height: .4rem;
+}
+.dianstyletwo {
+    display: none;
+}
+.dianstyle{
+    display: none;
+}
+.funcbigbox{
+    width: 100%;
+    background-image: url(../partimage/attendance/screenbg.png);
+    background-size: 100% 100%;
+    min-height: 14.6533rem;
+    padding: 0 .4rem .6667rem;
+    box-sizing: border-box;
+}  
+.funcbox{
+    padding-top: .6533rem ;
+    box-sizing: border-box;
+    
+}
+.funcboxtitle{
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: .4267rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.funcontent{
+    display: flex;
+    margin-top: .4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.funcontent_list{
+    width: 4.4667rem;
+    height: 4rem;
+    background: #445159;
+    border-radius: .1333rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .3733rem 0 .4667rem 0;
+    box-sizing: border-box;
+    margin-bottom: .2667rem;
+    text-align: center;
+}
+.funcontent_list:nth-child(2n){
+    margin-right: 0;
+}
+.funcontimg{
+    width: 1.3067rem;
+    height: 1.4533rem;
+}
+.funconttitle{
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: .4rem;
+    color: #FFFFFF;
+    margin: .36rem 0 .1733rem 0;
+}
+.funconttitle_two{
+    font-family: PingFang SC;
+    font-weight: 400;
+    font-size: .2933rem;
+    color: #FFFFFF;
+    width: 3.5733rem;
+}
+.neititle{
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: .4267rem;
+    color: #333333;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start_left_img{
+    width: .2667rem;height: .2667rem;margin-right: .1067rem;
+}
+.start_right_img{
+    width: .2667rem;height: .2667rem;margin-left: .1067rem;
+}
+.advantageboxbig {
+    width: 100%;
+    min-height: 14.0533rem;
+    text-align: center;
+    background: linear-gradient(0deg,#FFFFFF, #F6F8FB);
+    padding-top: .6533rem;
+    box-sizing: border-box;
+    
+}
+.advantagebox{
+      
+    margin-top: .4667rem;
+    padding: 0 .4rem;
+    box-sizing: border-box;
+ }
+ .advantagebox_list{
+     /* width: 9.2rem; */
+     height: 2.1333rem;
+     background: #FFFFFF;
+     box-shadow: 0rem .08rem .08rem 0rem rgba(7,64,102,0.09);
+     border-radius: .2667rem;
+     display: flex;
+     padding: .3733rem .48rem .2rem .3333rem;
+     box-sizing: border-box;
+     margin-bottom: .32rem
+ }
+ .advantagetitle{
+     font-family: PingFang SC;
+     font-weight: 500;
+     font-size: .4rem;
+     color: #333333;
+    text-align: left;
+ }
+ .advantagetitle_bottom{
+     text-align: left;
+     margin-left: .4rem;
+ }
+ .ad_last{
+     margin-top: .1333rem;
+ }
+ .advantagetitle_two{
+     font-family: Alibaba PuHuiTi;
+     font-weight: 400;
+     font-size: .32rem;
+     color: #666666;
+     text-align: left;
+     margin-top: .08rem;
+    
+ }
+ .Real_img{
+     margin-top: .1067rem;
+ }
+ .deter_img{
+     margin-top: .1067rem;
+ }
+.Systembigbox{
+    width: 100%;
+    height: 17.72rem;
+    padding: .6533rem 0;
+    background: #F6F8FB;
+   
+}
+.Systembox{
+    padding: 0 .4rem;
+    box-sizing: border-box;
+    margin-top: .4rem;
+ }
+ .Systembox_list{
+     /* width: 9.2rem; */
+     height: 4.9333rem;
+     background: #FFFFFF;
+     box-shadow: 0rem .08rem .08rem 0rem rgba(7,64,102,0.09);
+     border-radius: .2667rem;
+     box-sizing: border-box;
+     margin-bottom: .4rem;
+ }
+ .leadertitle{
+     font-family: PingFang SC;
+     font-weight: 500;
+     font-size: .4rem;
+     color: #FFFFFF;
+     
+ }
+ .sysline{
+     width: .3333rem;
+     height: .04rem;
+     background: #FFFFFF;
+     margin-top: .0667rem;
+ }
+ .Systembox_top{
+     width: 100%;
+     height: 1.04rem;
+     background: linear-gradient(86deg,#29C7FB, #3D93FD );
+     border-radius: .1333rem .1333rem 0rem 0rem;
+     display: flex;
+     padding: 0 .32rem;
+     box-sizing: border-box;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .toptwo{
+     background: linear-gradient(-90deg, #FFB966, #FD7E31);
+ }
+ .topthree{
+     background: linear-gradient(-90deg, #21E179, #2EF398);
+ }
+ .Systembox_title{
+     font-family: PingFang SC;
+     font-weight: 500;
+     font-size: .3733rem;
+     color: #10225A;
+     margin-bottom: .2933rem;
+ }
+ .Systembox_bottom{
+     width: 100%;
+     padding: .4rem 0 .2667rem .2533rem;
+     box-sizing: border-box;
+ }
+ .Systembox_list_title{
+     font-family: PingFang SC;
+     font-weight: 400;
+     font-size: .3467rem;
+     color: #333333;
+     margin-bottom: .2rem;
+ }
+ .Systembox_list_img{
+     margin-right: .0933rem;
+     width: .3867rem;
+     height: .3067rem;
+ }
+ .parent_img{
+     width: .8133rem;height: .7333rem;
+ }
+ .school_img{
+     width: .6133rem;height: .72rem;
+ }
+ .leard_img{
+     width: .64rem;height: .72rem;
+ }
+ul li {
+    list-style: none;
+}
+h2{
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: .4rem;
+    color: #10225A;
+}
+p{
+    font-family: PingFang SC;
+    font-weight: 400;
+    font-size: .3467rem;
+    color: #666666;
+}
+.ptwo{
+    font-family: PingFang SC;
+font-weight: 400;
+font-size: .3467rem;
+    margin-top: .2667rem;
+}
+.heixian{
+    width: .5333rem;
+    height: .0533rem;
+    background: #10225A;
+    margin-top: .2533rem;
+}
+.longxian{
+    width:100%;
+    height: .0133rem;
+    background: #ECEAEA;
+    
+    margin-bottom: .3467rem;
+}
+.banners{
+    position: relative;
+    overflow: hidden;
+    margin-top: .6533rem;
+    height: 10rem;
+}
+.slides{
+    /* display: flex;
+    transition: transform 0.5s ease-in-out; */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 40rem */
+   height: 8.64rem;
+   width: 30rem;
+}
+.slide{
+    width: 10rem;
+    height: 8.64rem;
+    /* flex-shrink: 0; */
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+    float: left;
+
+}
+.slide_nav{
+    display: flex;
+    justify-content: center;
+}
+/*左右箭头相同样式*/
+.prev,
+.next {
+    display: none;
+    position: absolute;  
+    /* 绝对定位的盒子垂直居中 */
+    top: 50%;
+    margin-top: -15px;
+    width: 20px;
+    height: 30px;
+    background: rgba(0,0,0, .3);
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none; 
+}
+/*左箭头靠左定位*/
+.prev {
+    left: 0;
+     /* 设置圆角 */
+     border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*右箭头靠右定位*/
+.next {
+    right: 0;
+    /* 设置圆角 */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+/* 小圆点样式*/
+.dots{
+    position:absolute;
+    bottom: .4rem;
+    left: 4.52rem;
+}
+.dots li {
+    float: left;
+    width: .2133rem;
+    height: .0533rem;
+    background: #CCCCCC;
+    border-radius: .0267rem;
+    margin-right: .16rem;
+}
+/* 小圆点被点击的样式 */
+.dots .active {
+    background: #10225A;
+}
+.active{
+    width: .2133rem;
+    height: .0533rem;
+    background: #10225A;
+    border-radius: .0267rem;
+    margin-right: .16rem;
+}
+.neibigbox{
+    /* padding:0 0.4rem; */
+    box-sizing: border-box;
+    height: 9.0667rem;
+}
+.neileft{
+    width: 100%;
+}
+.neirong {
+ padding-top: .6533rem;
+ box-sizing: border-box;
+
+}
+.neibox{
+    width: 10rem;
+    /* width: 10rem;
+    height: 100%;
+    display: inline-block;
+    justify-content: space-between; */
+}
+   .neibox_one{
+       /* margin: .5333rem 0 .8133rem; */
+       /* margin-left: -6.76rem; */
+   }
+
+.neititletwo{
+    font-family: PingFang SC;
+    font-weight: 400;
+    font-size: .3467rem;
+    color: #666666;
+    text-align: center;
+}
+   .neileft{
+    text-align: left;
+   }
+  
+   .neiright{
+       /* background-color: red; */
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       padding-top: .6667rem;
+       /* justify-content: space-between; */
+   }
+   li{
+       display: flex;
+       align-items: center;
+       margin-bottom: .2667rem;
+   }
+   .li_style{
+    flex-direction: row-reverse;
+   }
+   .neidi{
+        width: 6.6133rem;
+        height: .5333rem;
+        background: #E1EDFC;
+        border-radius: .0533rem;
+       display: flex;
+       align-items: center;
+   }
+   
+   .spantitle{
+       font-family: Alibaba PuHuiTi;
+       font-weight: 400;
+       font-size: .2133rem;
+       color: #10225A;
+   }
+  
+   .spansu{
+       font-family: Alibaba PuHuiTi;
+       font-weight: 400;
+       font-size: .2933rem;
+       color: #10225A;
+       margin-left: .1333rem;
+   }
+   .spantitletwo{
+       font-family: Alibaba PuHuiTi;
+       font-weight: 400;
+       font-size: .2133rem;
+       color: #10225A;
+       margin-left: .1733rem;
+   }
+   .neitop{
+        width: 3.7333rem;
+        height: .5333rem;
+        background: linear-gradient(86deg, #29C7FB, #3D93FD);
+        border-radius: .0533rem;
+   }
+   
+   .neibox_one{
+    display: flex;
+    flex-direction: column-reverse;
+    
+   }
+   
+   .spantitle{
+    font-family: PingFang SC;
+    font-weight: 400;
+    font-size: .32rem;
+    color: #10225A;
+    margin-left: .2667rem;
+   }
+   .spantitletwo{
+    font-family: Alibaba PuHuiTi;
+    font-weight: 400;
+    font-size: .32rem;
+    color: #10225A;
+}
+   .Selfish{
+    width: 1.3333rem
+   }
+   .problem{
+    width: .6667rem;
+   }
+   .Cause{
+    width: .3467rem;
+   }
+   .emotion{
+    width: .24rem;
+   }
+   .other{
+    width: 1.3333rem;
+   }
+   .advantagebox_list img{
+    width: 1.4133rem;
+    height: 1.5467rem;
+   }
+.room{
+    width: 2.6667rem;
+}
+.classroom{
+    width: 1.6rem;
+}
+  .lavatory{
+    width: 1.2267rem;
+  } 
+  .corridor{
+    width: 1.1333rem;
+  }
+  .playground{
+    width: 1.04rem;
+  }
+  .othertwo{
+    width: 1.16rem;
+  }
+  .die{
+    width: 1.1467rem;
+  }
+  .hart{
+    width: 2.4rem;
+  }
+  .littlehart{
+    width: 2.9333rem;
+  }
+  .littlehartone{
+    width: 2rem;
+  }
+}
