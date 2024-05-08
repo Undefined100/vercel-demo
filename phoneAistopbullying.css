@@ -554,3 +554,13 @@ font-size: .3467rem;
     width: 2rem;
   }
 }
+.swiper-pagination-bullet {
+    border-radius: 0 !important;
+    width: .2133rem !important;
+    height: .0533rem !important;;
+    background:   #000 !important;;
+}
+
+.swiper-pagination-bullet-active {
+    background: #10225A !important;
+}
